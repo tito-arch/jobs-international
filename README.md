@@ -1,1 +1,1 @@
-This project was bootstrapped using create react app.
+This project was bootstrapped using Next JS.
