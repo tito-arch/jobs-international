@@ -8,12 +8,14 @@ export default function PopularJobs() {
     <div className="min-h-screen py-16">
       <header className="container mx-auto py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-xl font-bold text-white">JI</span>
-            </div>
-            <span className="text-xl font-bold">JOBS INTERNATIONAL</span>
-          </div>
+        <div className="flex items-center gap-2">
+  <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center">
+    <span className="text-xl font-bold text-white">JI</span>
+  </div>
+  <Link href="/">
+    <span className="text-xl font-bold">JOBS INTERNATIONAL</span>
+  </Link>
+</div>
           <nav className="hidden md:flex items-center space-x-6">
             <Link href="#" className="text-sm font-medium hover:text-primary">
               Find Companies

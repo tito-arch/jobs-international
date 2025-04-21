@@ -18,18 +18,21 @@ import CompanyLogos from '@/components/CompanyLogos';
 import JobCategories from '@/components/JobCategories';
 import NewsletterSignup from '@/components/NewsLetterSignup';
 import Image from 'next/image';
+import IndustrySlider from '@/components/IndustrySlider';
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="container mx-auto py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-xl font-bold text-white">JI</span>
-            </div>
-            <span className="text-xl font-bold">JOBS INTERNATIONAL</span>
+                <div className="flex items-center gap-2">
+          <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center">
+            <span className="text-xl font-bold text-white">JI</span>
           </div>
+          <Link href="/">
+            <span className="text-xl font-bold">JOBS INTERNATIONAL</span>
+          </Link>
+        </div>
           <nav className="hidden md:flex items-center space-x-6">
             <Link href="#" className="text-sm font-medium hover:text-primary">
               Find Job
@@ -105,17 +108,20 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="absolute inset-0">
-            <div className="w-full h-full">
-              <Image
-                src="/jobs-international-2025-travel.png"
-                alt="Jobs International - Global job opportunities"
-                fill
-                className="object-cover object-center"
-                priority
-              />
-            </div>
-          </div>
+          <div className="absolute inset-0 bg-white">
+  <div className="z h-full flex justify-center">
+    <div className="relative w-[90%] h-full">
+      <Image
+        src="/jobs-international-2025-travel.png"
+        alt="Jobs International - Global job opportunities"
+        fill
+        className="object-cover object-center"
+        priority
+      />
+    </div>
+  </div>
+</div>
+
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"></div>
         </section>
 
@@ -232,6 +238,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <IndustrySlider />
 
         {/* Our Values Section */}
         <section className="py-16 bg-gradient-to-br from-pink-500 to-purple-600 text-white relative overflow-hidden">
