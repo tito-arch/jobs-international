@@ -5,49 +5,49 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const industries = [
   {
-    url: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1",
+    url: "/paris.jpg",
     title: "Travel and Tourism Industry",
     subtitle: "Explore New Horizons",
     description:
       "Join the dynamic world of travel and tourism, connecting people with unforgettable experiences across the globe. From tour operations to destination management, help create memories that last a lifetime.",
   },
   {
-    url: "https://images.unsplash.com/photo-1581056771107-24ca5f033842",
+    url: "/social-health.jpg",
     title: "Social Health Workers",
     subtitle: "Supporting Communities",
     description:
       "Make a meaningful difference in people's lives through social health work. Provide essential support, guidance, and advocacy for vulnerable populations while building stronger, more resilient communities.",
   },
   {
-    url: "https://images.unsplash.com/photo-1579684385127-1ef15d508118",
+    url: "/medicalindustry.jpg",
     title: "Medical Industry",
     subtitle: "Advancing Healthcare",
     description:
       "Be at the forefront of healthcare innovation and patient care. From clinical practices to research and development, the medical industry offers rewarding careers dedicated to improving and saving lives.",
   },
   {
-    url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    url: "/informationtechnology.jpg",
     title: "Information Technology Industry",
     subtitle: "Powering Digital Transformation",
     description:
       "Shape the future through technological innovation. The IT industry offers diverse opportunities in software development, data science, cybersecurity, and digital infrastructure that drive progress across all sectors.",
   },
   {
-    url: "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+    url: "/hospitality.jpg",
     title: "Hospitality",
     subtitle: "Creating Exceptional Experiences",
     description:
       "Excel in the art of service excellence through hotels, restaurants, and entertainment venues. The hospitality industry combines creativity and management to deliver unforgettable guest experiences worldwide.",
   },
   {
-    url: "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5",
+    url: "/factoryworkers.jpg",
     title: "Factory Workers",
     subtitle: "Manufacturing Excellence",
     description:
       "Power the production backbone of the global economy. Factory workers combine skilled craftsmanship with modern manufacturing techniques to create the products that shape our daily lives and drive economic growth.",
   },
   {
-    url: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5",
+    url: "/constructionworkers.jpg",
     title: "Construction Workers",
     subtitle: "Building Tomorrow",
     description:

@@ -12,7 +12,7 @@ export default function CompanyLogos() {
       {logos.map((company) => (
         <div
           key={company.name}
-          className="text-gray-300 text-2xl md:text-3xl font-light"
+          className="text-gray-600 text-2xl md:text-3xl font-light"
         >
           {company.logo}
         </div>

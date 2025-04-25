@@ -33,7 +33,7 @@ export default function NewsletterSignup() {
           required
           className="bg-white"
         />
-        <Button type="submit" className="whitespace-nowrap">
+        <Button type="submit" className="bg-gradient-to-r from-pink-500 to-purple-600 text-white whitespace-nowrap">
           Subscribe
         </Button>
       </form>
