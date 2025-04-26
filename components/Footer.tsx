@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
 
 export default function Footer() {
   return (
@@ -6,12 +7,10 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-xl font-bold text-white">JI</span>
-              </div>
-              <span className="text-xl font-bold">JOBS INTERNATIONAL</span>
-            </div>
+            <Avatar>
+              <AvatarImage src="/jobs-international-logo.png" alt="@shadcn" />
+              <AvatarFallback>JI</AvatarFallback>
+            </Avatar>
             <p className="text-sm text-gray-500 mb-4">
               Find & Hire Top Talent From All Over The World In One Platform
             </p>
@@ -90,22 +89,34 @@ export default function Footer() {
             <h3 className="font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   Find Job
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   Find Companies
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   Career Advice
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   Company A-Z
                 </Link>
               </li>
@@ -115,22 +126,34 @@ export default function Footer() {
             <h3 className="font-bold mb-4">About Jobs International</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   Working For Us
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   FAQ
                 </Link>
               </li>
@@ -140,22 +163,34 @@ export default function Footer() {
             <h3 className="font-bold mb-4">Terms</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   Conditions
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   Privacy
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   Feedback
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-500 hover:text-primary">
+                <Link
+                  href="#"
+                  className="text-sm text-gray-500 hover:text-primary"
+                >
                   Site Map
                 </Link>
               </li>
@@ -164,7 +199,8 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Jobs International. All Rights Reserved.
+            © {new Date().getFullYear()} Jobs International. All Rights
+            Reserved.
           </p>
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <Link href="#" className="text-sm text-gray-500 hover:text-primary">
