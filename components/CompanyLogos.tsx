@@ -3,8 +3,8 @@ export default function CompanyLogos() {
     { name: 'Google', logo: 'Google' },
     { name: 'Facebook', logo: 'Facebook' },
     { name: 'Microsoft', logo: 'Microsoft' },
-    { name: 'LinkedIn', logo: 'LinkedIn' },
     { name: 'Amazon', logo: 'Amazon' },
+    { name: 'Bunnie ABC', logo: 'Bunnie abc' },
   ];
 
   return (
