@@ -90,10 +90,10 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="#"
+                  href="/popular-jobs"
                   className="text-sm text-gray-500 hover:text-primary"
                 >
-                  Find Job
+                  Explore Jobs
                 </Link>
               </li>
               <li>
@@ -106,7 +106,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/#career-advice"
                   className="text-sm text-gray-500 hover:text-primary"
                 >
                   Career Advice
@@ -199,8 +199,8 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Jobs International. All Rights
-            Reserved.
+            © {new Date().getFullYear()} <b>Jobs International</b> fullfilled by{' '}
+            <b>Bunnie abc</b>.
           </p>
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <Link href="#" className="text-sm text-gray-500 hover:text-primary">
