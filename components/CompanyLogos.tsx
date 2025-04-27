@@ -1,7 +1,7 @@
 export default function CompanyLogos() {
   const logos = [
     { name: 'Google', logo: 'Google' },
-    { name: 'Facebook', logo: 'Facebook' },
+    { name: 'Calcurious', logo: 'Calcurious' },
     { name: 'Microsoft', logo: 'Microsoft' },
     { name: 'Amazon', logo: 'Amazon' },
     { name: 'Bunnie ABC', logo: 'Bunnie abc' },
