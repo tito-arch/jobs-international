@@ -1,8 +1,10 @@
 import { ImageResponse } from 'next/og';
 
+// Route segment config
 export const runtime = 'edge';
 
-export async function GET() {
+// Named default export for image generation
+export default function generateOGImage() {
   return new ImageResponse(
     (
       <div
@@ -23,7 +25,7 @@ export async function GET() {
       >
         <h1 style={{ margin: 0, fontSize: 48 }}>JOBS INTERNATIONAL</h1>
         <p style={{ fontSize: 24, margin: '20px 0 0', color: 'white' }}>
-          Powering The World’s Most Advanced Companies
+          Powering The World's Most Advanced Companies
         </p>
       </div>
     ),
