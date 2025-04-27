@@ -25,7 +25,7 @@ export default function generateOGImage() {
       >
         <h1 style={{ margin: 0, fontSize: 48 }}>JOBS INTERNATIONAL</h1>
         <p style={{ fontSize: 24, margin: '20px 0 0', color: 'white' }}>
-          Powering The World's Most Advanced Companies
+          Powering The World&apos;s Most Advanced Companies
         </p>
       </div>
     ),
