@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="fixed top-4 left-4 right-4 z-50 rounded-2xl bg-white/10 backdrop-blur-md shadow-lg overflow-hidden">
       <div className="relative">
-        <span className="absolute top-0 right-0 w-20 h-1 bg-pink-300 rounded-bl-full" />
+        <span className="absolute top-0 right-0 w-20 h-1" />
         <div className="container mx-auto py-4 px-6 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Avatar>
@@ -20,30 +20,24 @@ export default function Header() {
             </Link>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
-            <Link href="#" className="text-sm font-medium hover:text-primary">
-              Find Job
-            </Link>
-            <Link href="#" className="text-sm font-medium hover:text-primary">
-              Find Companies
-            </Link>
-            <Link href="#" className="text-sm font-medium hover:text-primary">
-              Career Advice
-            </Link>
-            <Link href="#" className="text-sm font-medium hover:text-primary">
-              Company A-Z
+            <Link
+              href="/popular-jobs"
+              className="text-sm font-medium hover:text-primary"
+            >
+              Explore Jobs
             </Link>
             <Link
-              href="#"
-              className="border-primary text-sm font-medium hover:text-primary"
+              href="/#career-advice"
+              className="text-sm font-medium hover:text-primary"
             >
-              Sign In
+              Career Advice
             </Link>
-            <Button
-              variant="outline"
-              className="bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:bg-primary hover:text-white"
+            <Link
+              href="/#about-us"
+              className="text-sm font-medium hover:text-primary"
             >
-              Create Account
-            </Button>
+              About us
+            </Link>
           </nav>
           <Button variant="ghost" className="md:hidden">
             <svg
